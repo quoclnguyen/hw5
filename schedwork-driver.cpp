@@ -25,6 +25,7 @@ int main()
     };
     DailySchedule sched;
     bool solutionFound = schedule(avail, 2, 2, sched);
+    cout << solutionFound << endl;
     if(solutionFound)
     {
         printSchedule(sched);
